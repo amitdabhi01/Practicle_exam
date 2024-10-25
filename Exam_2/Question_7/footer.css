@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    max-width: 100%;
+    background-color: #0a152f;
+    /* border: 1px solid black; */
+    /* padding: 20px; */
+}
+.container{
+    max-width: 1320px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.footer-container{
+    max-width: 1320px;
+    border-bottom: 1px solid white;
+    display: flex;
+    margin: auto;
+    /* padding: 10px; */
+}
+.boxes{
+    max-width: 1320px;
+    /* border: 1px solid white; */
+    padding: 10px;
+    margin: auto;
+    display: flex;
+}
+.box1{
+    width: 50%;
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+.box1 h1{
+    color: white;
+    font-family: "Noto Sans", serif;
+    /* font-weight: normal; */
+}
+.box2{
+    width: 50%;
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+.button1{
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: #44b678;
+    margin-right: 10px;
+}
+.button1:hover{
+    background-color: #2a995c;
+}
+.button2{
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    background-color: #feb602;
+}
+.button2:hover{
+    background-color: #cf990e;
+    color:black;
+}
+.button1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: "Noto Sans", serif;
+    /* font-weight: normal; */
+}
+.button2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "Noto Sans", serif;
+    /* font-weight: normal; */
+}
+.bigbox{
+    /* border: 1px solid white; */
+    width: 20%;
+    padding: 10px;
+}
+.box{
+    /* border: 1px solid white; */
+    padding: 10px;
+    width: 100%;
+}
+.box h4{
+    color: white;
+    font-size: 16px;
+    margin: 0px 0px 20px 0px;
+    font-family: "Noto Sans", serif;
+    /* font-weight: normal; */
+}
+.box a {
+    color: white;
+    text-decoration: none;
+    line-height: 1.7;
+    font-size: 14px;
+    font-family: "Noto Sans", serif;
+    font-weight: normal;
+}
+.icon i{
+    font-size: 30px;
+    margin: 0px 10px 0px 0px;
+    color: white;
+}
+.copyright{
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+.copyright p{
+    color: #9c9c9c;
+    font-size: 14px;
+    margin: 20px 0px 20px 0px;
+    font-family: "Noto Sans", serif;
+    font-weight: normal;
+}
